@@ -1,0 +1,212 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: 'HeadingFont';
+  src: url('../../src/fonts/tommy/made-tommy-hardik.ttf') format('ttf');
+ 
+}
+@font-face {
+  font-family: 'subHeading';
+  src: url('../../src/fonts/call-duty.ttf');
+ 
+}
+.heading-font{
+  font-family: HeadingFont;
+  font-style: normal;
+}
+.subHeading{
+  font-family: subHeading;
+
+}
+body{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  /* font-family: HeadingFont; */
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.Header-Button{
+background: linear-gradient(180deg, #E61E16 0%, #911811 118.6%);
+box-shadow: inset 0px -3px 4px #F90503;
+
+color: #FFFFFF;
+}
+
+.phase-action-btn{
+  background: linear-gradient(180deg, #E61E16 0%, #911811 118.6%);
+  box-shadow: inset 0px -3px 4px #F90503;
+  
+  color: #FFFFFF;
+} 
+
+.Your-Brigade{
+  background-image: url("https://heat-wave.s3.eu-north-1.amazonaws.com/brigage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.brigade-bg{
+background: linear-gradient(270deg, rgba(0, 0, 0, 0.00) 7.96%, #000 100%);
+  
+}
+.GamePlay{
+  background-image: url("https://heat-wave.s3.eu-north-1.amazonaws.com/gameplaybg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer-bg{
+  background-image: url("https://heat-wave.s3.eu-north-1.amazonaws.com/Footer-Desktop.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-fighter{
+  background: linear-gradient(268deg, rgba(0, 0, 0, 0.00) 3.19%, #000 37.82%);
+  width: 843.423px;
+height: 636.886px;
+}
+.hero-card{
+  border-radius: 5px;
+background: linear-gradient(172deg, rgba(60, 33, 25, 0.66) 11.69%, #000 93.55%);
+box-shadow: 0px 0px 4.8px 0px #F9CD67 inset;
+}
+.clip{clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);}
+.clip2{
+  clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+}
+.clip3{
+  clip-path: polygon(5% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.clip5{
+  clip-path: polygon(0 0, 100% 0, 96% 100%, 4% 100%);
+  border-radius: 20px; /* Add radius to corners */
+  overflow: hidden;
+}
+.custom-shadow{
+  fill: #E8BB0E;
+  box-shadow: 0px -7px 9.2px 0px #F28A10 inset;
+}
+
+.mobile-shape{
+
+
+background: #E8BB0E;
+box-shadow: inset 0px -7px 9.2px #F28A10;
+border-radius: 7px;
+
+}
+
+.not-active-link{
+  border-radius: 5px;
+background: linear-gradient(172deg, rgba(60, 33, 25, 0.66) 11.69%, #000 93.55%);
+box-shadow: 0px 0px 4.8px 0px #F9CD67 inset;
+}
+.active-link{
+  border-radius: 5px;
+background: linear-gradient(160deg, #E61E16 38.59%, #911811 107.06%);
+box-shadow: 0px 0px 4.8px 0px #F9CD67 inset;
+}
+
+.rounded-bedge{
+background: linear-gradient(172deg, rgba(60, 33, 25, 0.66) 11.69%, #000 93.55%);
+box-shadow: 0px 0px 4.8px 0px #F9CD67 inset;
+}
+@media only screen and (max-width: 768px) {
+  .GamePlay {
+    background-image: none; /* Hide the background image on devices with a maximum width of 768px (typical for mobile devices) */
+  }
+  .Your-Brigade{
+    background-image: none;
+  }
+
+  .footer-bg{
+    background-image: none;
+
+  }
+  .customisable{
+        background-image: url("https://heat-wave.s3.eu-north-1.amazonaws.com/cstm.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  }
+  .GamePlayMobile{
+    background-image: url("https://heat-wave.s3.eu-north-1.amazonaws.com/gameplaymobilebg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  .Your-Brigade-mobile{
+    background-image: url("https://heat-wave.s3.eu-north-1.amazonaws.com/your-brigade-mobile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .Generations{
+    background-image: url("https://heat-wave.s3.eu-north-1.amazonaws.com/gnmb.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .footer-bg-mobile{
+    background-image: url("https://heat-wave.s3.eu-north-1.amazonaws.com/Footer-Mobile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.nav-bg{
+  background-image: url("https://heat-wave.s3.eu-north-1.amazonaws.com/Mobile-Nav-Bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.over-lay{ border-radius: 546.163px;
+  background: #D9D9D9;
+  
+  filter: blur(250px);
+  }
+ 
+  .clip {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .clip3{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .clip2{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .bg-text{
+
+  }
+}
+
+
+/* Apply styles for Firefox on screen size 1920x1080 */
+@-moz-document url-prefix("https://heat-wave-v1.vercel.app/") {
+  @media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .firefox-class {
+      margin-left: 363px;
+    }
+  }
+}
+
+
+
+
+

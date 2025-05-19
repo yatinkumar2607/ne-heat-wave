@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MADE TOMMY';
+    src: url('fonts/mm.eot');
+    src: url('fonts/mm.eot?#iefix') format('embedded-opentype'),
+         url('fonts/mm.woff2') format('woff2'),
+         url('fonts/mm.woff') format('woff'),
+         url('fonts/mm.ttf')  format('truetype'),
+         url('fonts/mm.svg#MADE TOMMY') format('svg');
+}
